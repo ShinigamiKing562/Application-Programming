@@ -1,10 +1,10 @@
 BIT 2118 Application Programming - Assignment I Report
-  Group Members: Victor, Adrian, Kerry, Linet, Eugene  
+  Group Members: Victor, Adrian, Kerry, Linet, Eugene, Austin  
     Course:BIT 2118 - Application 
 
 This report outlines the approach and implementation of the assigned C# programming tasks. Each team member was responsible for headlining a specific question to ensure an efficient workflow. Below is a detailed breakdown of how each question was tackled. 
 
-Question 1: Lucky Number Game (Victor)
+Question 1: Lucky Number Game (Victor & Austin)
 Victor developed a C# program to simulate a game where a user enters a lucky number, which is then evaluated against a secret number to determine wins and losses. His approach included:  
 - Accepting user input for the lucky number.  
 - Dividing the number by a secret value and evaluating the remainder.  
