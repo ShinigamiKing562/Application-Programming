@@ -3,7 +3,7 @@ using System;
 class Mall {
     static void Main() {
         Console.WriteLine("Enter Credit Limit: Ksh. ");
-        float climit = float.Parse(Console.ReadLine());
+        float Climit = float.Parse(Console.ReadLine());
 
         Console.WriteLine("Enter Price of item: Ksh. ");
         float price = float.Parse(Console.ReadLine());
