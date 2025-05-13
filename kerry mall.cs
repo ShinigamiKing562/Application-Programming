@@ -22,7 +22,7 @@ class Mall {
             Console.WriteLine("Total Purchase = Ksh. " + tpurchase);
         }
 
-        Console.WriteLine("Thank You for purchasing from us.");
+        Console.WriteLine("Thank You for purchasing from us faithfully.");
     }
 
     static float Calculate(float price, float quantity) {
