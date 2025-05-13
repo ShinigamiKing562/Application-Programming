@@ -11,7 +11,7 @@ class Pattern
                 {
                     Console.Write("& ");
                 }
-                else if (j == i)
+                else if (j == i-1)
                 {
                     Console.Write("& ");
                 }
