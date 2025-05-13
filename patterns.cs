@@ -1,21 +1,26 @@
-using System;
-
-class Program {
-    static void Main() {
-        char[,] pattern = {
-            { '&', '&', '&', '&', '&', '&' },
-            { '*', '&', '*', '*', '*', '*' },
-            { '*', '*', '&', '*', '*', '*' },
-            { '*', '*', '*', '&', '*', '*' },
-            { '*', '*', '*', '*', '&', '*' },
-            { '&', '&', '&', '&', '&', '&' }
-        };
-
-        for (int i = 0; i < 6; i++) {
-            for (int j = 0; j < 6; j++) {
-                Console.Write(pattern[i, j] + " ");
+class Pattern
+{
+    static void Main()
+    {
+        int rows = 6;
+        for (int i = 0; i < rows; i++)
+        {
+            for (int j = 0; j < rows; j++)
+            {
+                if (i == 0 || i == rows - 1)
+                {
+                    Console.Write("& ");
+                }
+                else if (j == i)
+                {
+                    Console.Write("& ");
+                }
+                else
+                {
+                    Console.Write("* ");
+                }
             }
-            Console.WriteLine();
+            Console.WriteLine(); // New line after each row
         }
     }
 }
