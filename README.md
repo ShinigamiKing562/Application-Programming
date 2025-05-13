@@ -1,5 +1,5 @@
 BIT 2118 Application Programming - Assignment I Report
-  Group Members: Victor, Adrian, Kerry, Linet, Eugene, Austin  
+  Group Members: Victor, Adrian, Kerry, Linet, Eugene, Austin, Walter
     Course:BIT 2118 - Application 
 
 This report outlines the approach and implementation of the assigned C# programming tasks. Each team member was responsible for headlining a specific question to ensure an efficient workflow. Below is a detailed breakdown of how each question was tackled. 
